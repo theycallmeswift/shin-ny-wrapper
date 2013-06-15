@@ -34,7 +34,11 @@ function sendPatientData(req, res) {
   });
 }
 
-app.get('patients/:id', sendPatientData);
+app.get('/', function(req, res) {
+  res.redirect("https://github.com/theycallmeswift/shin-ny-wrapper");
+});
+
+app.get('/patients/:id', sendPatientData);
 app.get("/bb/record/documentreference/:id/document", sendPatientData);
 
 app.listen(port);

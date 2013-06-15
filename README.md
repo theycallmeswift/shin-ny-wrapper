@@ -3,7 +3,7 @@
 This is a RESTful wrapper for some sample data from the SHIN-NY API.  All
 responses are in XML fomat.
 
-## GET /bb/record/documentreference/:id/document
+### GET /bb/record/documentreference/:id/document
 
 This endpoint will return an XML file containing all medical records for patient
 with the given ID.  For example:
@@ -12,3 +12,6 @@ with the given ID.  For example:
 
 would yeild the records for patient id #1.  You can see some sample data in the
 `/data` directory.
+
+You can also reference this as `/patients/:id` if you want a more concise
+enpoint.
