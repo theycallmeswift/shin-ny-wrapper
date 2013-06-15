@@ -8,7 +8,7 @@ responses are in XML fomat.
 This endpoint will return an XML file containing all medical records for patient
 with the given ID.  For example:
 
-    GET /bb/record/documentreference/1/document
+    GET http://shin-ny.herokuapp.com/bb/record/documentreference/1/document
 
 would yeild the records for patient id #1.  You can see some sample data in the
 `/data` directory.
