@@ -12,6 +12,8 @@ function sendPatientData(req, res) {
   var filename = path.join(__dirname, 'data', 'patient' + req.params.id + '.xml')
     , readStream = fs.createReadStream(filename);
 
+  res.setHeader("Access-Control-Allow-Origin", "*");
+
   readStream.on('open', function () {
     res.setHeader('Content-Type', 'text/xml');
     readStream.pipe(res);
