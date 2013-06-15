@@ -1,0 +1,15 @@
+{
+  "name": "health_hack_api",
+  "version": "0.0.0",
+  "description": "A RESTful wrapper for the SHIN-NY API so you don't have to use SOAP.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Swift <theycallmeswift@gmail.com>",
+  "license": "Beerware",
+  "dependencies": {
+    "express": "~3.2.6",
+  }
+}
