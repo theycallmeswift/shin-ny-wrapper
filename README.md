@@ -3,6 +3,8 @@
 This is a RESTful wrapper for some sample data from the SHIN-NY API.  All
 responses are in XML fomat.
 
+This API is deployed live to: [http://shin-ny.herokuapp.com/](http://shin-ny.herokuapp.com/)
+
 ### GET /bb/record/documentreference/:id/document
 
 This endpoint will return an XML file containing all medical records for patient
