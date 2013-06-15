@@ -4908,4 +4908,9 @@
             </component>
         </structuredBody>
     </component>
+    <dummyData>
+        <smoker>false</smoker>
+        <totalHDL>5</totalHDL>
+        <bmi>20</bmi>
+    </dummyData>
 </ClinicalDocument>
